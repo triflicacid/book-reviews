@@ -21,7 +21,6 @@
         ]
     },
     {
-        "cover": "1",
         "title": "Mage Errant",
         "author": "John Bierce",
         "tier": "A",
@@ -38,7 +37,6 @@
         ]
     },
     {
-        "cover": "1",
         "title": "All the Skills",
         "author": "Honour Rae",
         "tier": "B",
@@ -50,10 +48,10 @@
             "All the Skills: 1",
             "All the Skills: 2",
             "All the Skills: 3"
-        ]
+        ],
+        "cover": "1"
     },
     {
-        "cover": "1",
         "title": "Blood of the Ancients",
         "author": "Dan Michaelson, DK Holmberg",
         "tier": "E",
@@ -74,10 +72,10 @@
             "Dragon Herald",
             "Dragon Unity",
             "Dragon Form"
-        ]
+        ],
+        "cover": 1
     },
     {
-        "cover": "1",
         "title": "The Frith Chronicles",
         "author": "Shami Stovall",
         "tier": "S",

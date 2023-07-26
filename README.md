@@ -9,3 +9,5 @@ I use the well known S, A - F ranking system.
 - C - Average
 - D - Acceptable but not great
 - F - Unacceptable, rubbish
+
+All book images are 192x300

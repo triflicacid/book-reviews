@@ -1,4 +1,4 @@
-import { tiers, getBookCoverPath } from "./utils.js";
+import { tiers, getBookCoverPath, getBookImage } from "./utils.js";
 
 // CONSTANTS
 const bookData = tiers.reduce((p, c) => (p[c] = [], p), {}),
@@ -43,9 +43,8 @@ fetch("assets/data.json")
                 location.href = "book.html?id=" + id;
             });
 
-            const image = document.createElement("img");
+            const image = getBookImage(getBookCoverPath(book));
             image.attr = text;
-            image.src = getBookCoverPath(book);
             eBook.appendChild(image);
             
             eBook.insertAdjacentHTML("beforeend", "<div class=\"tier-item-glow\"></div>");

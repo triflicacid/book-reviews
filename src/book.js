@@ -1,4 +1,4 @@
-import { getAssetsPath, getBookCoverPath, tierDescriptions, tiers } from "./utils.js";
+import { getAssetsPath, getBookCoverPath, getBookImage, imageSuffix, tierDescriptions, tiers } from "./utils.js";
 
 const params = new URLSearchParams(location.search);
 const bookId = +params.get("id");
@@ -46,10 +46,9 @@ const container = document.getElementsByClassName("container")[0];
     }
 
     // Book image
-    const image = document.createElement("img");
+    const image = getBookImage(getBookCoverPath(book));
     image.classList.add("book-image-main");
     image.alt = "Book cover";
-    image.src = getBookCoverPath(book)
     container.appendChild(image);
 
     if (book.series) {
@@ -68,11 +67,10 @@ const container = document.getElementsByClassName("container")[0];
         series.appendChild(books);
 
         book.series.forEach((name, i) => {
-            const image = document.createElement("img");
+            const image = getBookImage(assetsPath + (i + 1).toString() + "." + imageSuffix);
             image.classList.add("book-image");
             if (i > book.readTo) image.classList.add("book-not-read");
             image.alt = name;
-            image.src = assetsPath + (i + 1).toString() + ".png";
             books.appendChild(image);
         });
     }
