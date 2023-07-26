@@ -3,7 +3,7 @@
     author: string;     // Author(s) of the book, seperated by commas
     tier: string;       // Character representing the book's tier
     genre: string[];    // A list of genres
-    read: string[];     // Date period the book was read over [start, ?end]. If end is ommited, it is ongiong.
+    read: string[];     // Date period the book was read over [start, ?end, ...]. If end is ommited, it is ongiong. May continue e.g. [start1, end1, start2, ?end2] to represent time periods.
     series?: string[];  // If this is a series, contains the names of each book in the series. Images are in assets/<title>/<index>.png.
     readTo?: number;    // Used if the series was aborted/ongiong, indicates the latest book that was read in the series. Note that this is 0-indexed.
     cover?: string;     // By default, the cover image is located in assets/images/<title>.png. If this is present, the cover image is assets/<title>/<cover>.png.

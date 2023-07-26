@@ -20,37 +20,78 @@
 }
 
 /** For each tier, set its color */
-.tier[data-tier=S] {
+[data-tier=S] {
     --tier-color: var(--tier-S);
     --tier-color-op: var(--tier-S-op);
 }
 
-.tier[data-tier=A] {
+[data-tier=A] {
     --tier-color: var(--tier-A);
     --tier-color-op: var(--tier-A-op);
 }
 
-.tier[data-tier=B] {
+[data-tier=B] {
     --tier-color: var(--tier-B);
     --tier-color-op: var(--tier-B-op);
 }
 
-.tier[data-tier=C] {
+[data-tier=C] {
     --tier-color: var(--tier-C);
     --tier-color-op: var(--tier-C-op);
 }
 
-.tier[data-tier=D] {
+[data-tier=D] {
     --tier-color: var(--tier-D);
     --tier-color-op: var(--tier-D-op);
 }
 
-.tier[data-tier=E] {
+[data-tier=E] {
     --tier-color: var(--tier-E);
     --tier-color-op: var(--tier-E-op);
 }
 
-.tier[data-tier=F] {
+[data-tier=F] {
     --tier-color: var(--tier-F);
     --tier-color-op: var(--tier-F-op);
+}
+
+[data-tier] {
+    --tier-color-light: color-mix(in srgb, var(--tier-color), #fff 50%);
+    --tier-color-dark: color-mix(in srgb, var(--tier-color), #000 20%);
+    --fancy-border-start: 45%;
+    --fancy-border-end: 55%;
+    --fancy-border-duration: 2s;
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes rotate {
+    from {
+        --angle: 0deg;
+    }
+
+    to {
+        --angle: 360deg;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #666;
 }

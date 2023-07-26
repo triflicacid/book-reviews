@@ -44,11 +44,11 @@ body {
     height: var(--dim);
     border-radius: 50%;
     font-weight: bold;
-    background-color: var(--tier-color);
     display: flex;
     justify-content: center;
     align-items: center;
     color: black;
+    background-color: var(--tier-color);
 }
 
 .book-tier > div:nth-child(2) {
@@ -56,10 +56,14 @@ body {
     color: var(--tier-color);
 }
 
-.book-image {
-    border-radius: 5px;
-    border: 4px solid var(--tier-color);
+.book-image-main {
     height: 30%;
+    border: 8px solid;
+    filter: drop-shadow(0 0 10px var(--tier-color-dark));
+    border-image: linear-gradient(var(--angle), var(--tier-color-light), var(--tier-color-light) var(--fancy-border-start), var(--tier-color-dark) var(--fancy-border-end), var(--tier-color-dark)) 1;
+
+    --angle: 0;
+    animation: var(--fancy-border-duration) rotate linear infinite;
 }
 
 .book-series-container {
@@ -89,4 +93,16 @@ body {
 .book-stopped-at {
     font-size: 0.9em;
     font-style: italic;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--tier-color-light);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--tier-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--tier-color-dark);
 }

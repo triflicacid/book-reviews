@@ -16,8 +16,8 @@ const container = document.getElementsByClassName("container")[0];
 
     const assetsPath = getAssetsPath(book.title);
 
-    container.classList.add("tier");
     container.dataset.tier = book.tier;
+    document.documentElement.dataset.tier = book.tier;
 
     document.title = book.title + " (" + book.tier + ")";
 
@@ -32,9 +32,14 @@ const container = document.getElementsByClassName("container")[0];
 
     // Genre
     container.insertAdjacentHTML("beforeend", `<div class='book-genre'>Genre(s): ${book.genre.join(", ")}</div>`);
-
+    
     // Read times
-    container.insertAdjacentHTML("beforeend", `<div class='book-read'>Read ${book.read[0]} &mdash; ${book.read.length === 1 ? '<em>Ongoing</em>' : book.read[1]}</div>`);
+    let readPeriods = [];
+    for (let i = 0; i < book.read.length; i += 2) {
+        readPeriods.push(book.read[i] + ' &mdash; ' + (book.read[i + 1] ?? '<em>Ongoing</em>'));
+    }
+
+    container.insertAdjacentHTML("beforeend", `<div class='book-read'>Read ${readPeriods.join(', ')}</div>`);
 
     if (book.status) {
         container.insertAdjacentHTML("beforeend", `<div class='book-status'>Status: ${book.status}</div>`);
@@ -42,7 +47,7 @@ const container = document.getElementsByClassName("container")[0];
 
     // Book image
     const image = document.createElement("img");
-    image.classList.add("book-image");
+    image.classList.add("book-image-main");
     image.alt = "Book cover";
     image.src = getBookCoverPath(book)
     container.appendChild(image);
