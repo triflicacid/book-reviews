@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tier-list {
+    width: calc(100% - 2 * var(--padding));
+    height: calc(100% - 2 * var(--padding));
+    padding: var(--padding);
+    background-color: var(--background);
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.tier {
+    --tier-color-light: color-mix(in srgb, var(--tier-color), #fff 50%);
+    --tier-color-dark: color-mix(in srgb, var(--tier-color), #000 20%);
+
+    background-color: var(--background);
+    width: 75%;
+    height: min(10%, fit-content);
+    border: var(--border);
+    border-top: none;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.tier:first-child {
+    border-top: var(--border);
+}
+
+.tier-label {
+    height: 100%;
+    width: 10%;
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    border-right: var(--border);
+    background-color: var(--tier-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.tier-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tier-content > div {
+    width: var(--book-width);
+    margin: 3px;
+    position: relative;
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+.tier > .tier-content > div > img {
+    border-radius: 5px;
+    border: 2px solid var(--tier-color);
+    height: 200px;
+    
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+    transition-property: filter;
+
+    --angle: 0;
+    animation: 2000ms rotate linear infinite;
+}
+
+.tier > .tier-content > div > img:hover {
+    border: 6px solid;
+    border-image-slice: 1;
+    filter: drop-shadow(0 0 15px var(--tier-color));
+    border-image: linear-gradient(var(--angle), var(--tier-color-light), var(--tier-color-light) 35%, var(--tier-color-dark) 65%, var(--tier-color-dark)) 1;
+    border-radius: 0;
+}

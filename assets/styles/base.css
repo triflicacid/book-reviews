@@ -1,0 +1,56 @@
+:root {
+    --tier-S: #FFA0A0;
+    --tier-S-op: #005f5f;
+    --tier-A: #FFCE9B;
+    --tier-A-op: #003164;
+    --tier-B: #FCFFA1;
+    --tier-B-op: #03005e;
+    --tier-C: #A2FF9E;
+    --tier-C-op: #5d0061;
+    --tier-D: #9DD0FC;
+    --tier-D-op: #622f03;
+    --tier-E: #A2A0FE;
+    --tier-E-op: #5d5f01;
+    --tier-F: #FD9FFE;
+    --tier-F-op: #026001;
+    --background: #555754;
+    --border: 3px solid #434441;
+    --foreground: #f5f5f5;
+    --padding: 10px;
+}
+
+/** For each tier, set its color */
+.tier[data-tier=S] {
+    --tier-color: var(--tier-S);
+    --tier-color-op: var(--tier-S-op);
+}
+
+.tier[data-tier=A] {
+    --tier-color: var(--tier-A);
+    --tier-color-op: var(--tier-A-op);
+}
+
+.tier[data-tier=B] {
+    --tier-color: var(--tier-B);
+    --tier-color-op: var(--tier-B-op);
+}
+
+.tier[data-tier=C] {
+    --tier-color: var(--tier-C);
+    --tier-color-op: var(--tier-C-op);
+}
+
+.tier[data-tier=D] {
+    --tier-color: var(--tier-D);
+    --tier-color-op: var(--tier-D-op);
+}
+
+.tier[data-tier=E] {
+    --tier-color: var(--tier-E);
+    --tier-color-op: var(--tier-E-op);
+}
+
+.tier[data-tier=F] {
+    --tier-color: var(--tier-F);
+    --tier-color-op: var(--tier-F-op);
+}
