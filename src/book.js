@@ -1,9 +1,8 @@
-import { getBookImage, getAssetsPath, getBookCoverPath } from "./utils.js";
+import { getAssetsPath, getBookCoverPath, tierDescriptions, tiers } from "./utils.js";
 
 const params = new URLSearchParams(location.search);
 const bookId = +params.get("id");
 const container = document.getElementsByClassName("container")[0];
-const faviconLink = document.querySelector("link[rel='shortcut icon']");
 
 (async function () {
     const response = await fetch("assets/data.json");
@@ -20,7 +19,7 @@ const faviconLink = document.querySelector("link[rel='shortcut icon']");
     container.classList.add("tier");
     container.dataset.tier = book.tier;
 
-    document.title = book.title;
+    document.title = book.title + " (" + book.tier + ")";
 
     // Title
     container.insertAdjacentHTML("beforeend", `<div class='book-title'>${book.title}</div>`);
@@ -29,7 +28,7 @@ const faviconLink = document.querySelector("link[rel='shortcut icon']");
     container.insertAdjacentHTML("beforeend", `<div class='book-author'>By ${book.author}</div>`);
 
     // Book rank
-    container.insertAdjacentHTML("beforeend", `<div class='book-tier'>${book.tier}</div>`);
+    container.insertAdjacentHTML("beforeend", `<div class='book-tier'><div>${book.tier}</div> <div>${tierDescriptions[tiers.indexOf(book.tier)]}</div></div>`);
 
     // Genre
     container.insertAdjacentHTML("beforeend", `<div class='book-genre'>Genre(s): ${book.genre.join(", ")}</div>`);
@@ -39,9 +38,6 @@ const faviconLink = document.querySelector("link[rel='shortcut icon']");
 
     if (book.status) {
         container.insertAdjacentHTML("beforeend", `<div class='book-status'>Status: ${book.status}</div>`);
-    }
-    if (book.aborted !== undefined) {
-        container.insertAdjacentHTML("beforeend", `<div class='book-aborted'>Aborted series during/after ${book.series[book.aborted]}</div>`);
     }
 
     // Book image
@@ -55,8 +51,12 @@ const faviconLink = document.querySelector("link[rel='shortcut icon']");
         const count = book.series.length;
         const series = document.createElement("div");
         series.classList.add("book-series-container");
-        series.insertAdjacentHTML("beforeend", `<div>This series contains ${count} book${count === 1 ? '' : 's'}</div>`);
+        series.insertAdjacentHTML("beforeend", `<div class='book-series-count'>This series contains ${count} book${count === 1 ? '' : 's'}</div>`);
         container.appendChild(series);
+
+        if (book.readTo !== undefined) {
+            series.insertAdjacentHTML("beforeend", `<div class='book-stopped-at'>Read up to ${book.series[book.readTo]}</div>`);
+        }
 
         const books = document.createElement("div");
         books.classList.add("book-series");
@@ -65,7 +65,7 @@ const faviconLink = document.querySelector("link[rel='shortcut icon']");
         book.series.forEach((name, i) => {
             const image = document.createElement("img");
             image.classList.add("book-image");
-            if (i >= book.aborted) image.classList.add("book-aborted");
+            if (i > book.readTo) image.classList.add("book-not-read");
             image.alt = name;
             image.src = assetsPath + (i + 1).toString() + ".png";
             books.appendChild(image);

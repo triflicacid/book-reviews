@@ -1,8 +1,7 @@
-import { getBookCoverPath } from "./utils.js";
+import { tiers, getBookCoverPath } from "./utils.js";
 
 // CONSTANTS
-const tiers = ['S', 'A', 'B', 'C', 'D', 'E', 'F'],
-    bookData = tiers.reduce((p, c) => (p[c] = [], p), {}),
+const bookData = tiers.reduce((p, c) => (p[c] = [], p), {}),
     tierElements = {};
 window.books = bookData;
 

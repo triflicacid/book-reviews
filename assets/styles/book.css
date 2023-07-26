@@ -33,16 +33,27 @@ body {
 }
 
 .book-tier {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.book-tier > div:nth-child(1) {
     --dim: 30px;
     width: var(--dim);
     height: var(--dim);
     border-radius: 50%;
-    background-color: var(--tier-color);
-    color: black;
     font-weight: bold;
+    background-color: var(--tier-color);
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black;
+}
+
+.book-tier > div:nth-child(2) {
+    font-weight: normal;
+    color: var(--tier-color);
 }
 
 .book-image {
@@ -71,6 +82,11 @@ body {
     height: 150px;
 }
 
-.book-image.book-aborted {
+.book-image.book-not-read {
     filter: opacity(50%);
+}
+
+.book-stopped-at {
+    font-size: 0.9em;
+    font-style: italic;
 }

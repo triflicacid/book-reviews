@@ -44,6 +44,7 @@
         "tier": "B",
         "genre": ["progression fantasy", "deckbuilding", "magic"],
         "read": ["09/07/2023", "11/07/2023"],
+        "readTo": 1,
         "status": "Awaiting new book",
         "series": [
             "All the Skills: 1",
@@ -58,7 +59,7 @@
         "tier": "E",
         "genre": ["progression fantasy", "magic"],
         "read": ["11/07/2023", "13/07/2023"],
-        "aborted": 2,
+        "readTo": 2,
         "series": [
             "Dragon Forged",
             "Dragon Skin",
@@ -99,7 +100,7 @@
         "tier": "C",
         "genre": ["progression fantasy", "magic"],
         "read": ["23/07/2023"],
-        "aborted": 3,
+        "readTo": 3,
         "series": [
             "Oathbound",
             "Knighthood",

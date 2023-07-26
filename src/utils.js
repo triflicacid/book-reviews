@@ -1,3 +1,7 @@
+/** Array of ranks */
+export const tiers = Object.freeze(['S', 'A', 'B', 'C', 'D', 'E', 'F']);
+export const tierDescriptions = Object.freeze(['Excellent', 'Very good', 'Good', 'Average', 'Acceptable', 'Unacceptable']);
+
 /** Given a name such as "the woman", convert to lower case and combine spaces by the given seperator */
 export function lowerCaseAndCombine(string, seperator = "-") {
     return string.toLowerCase().replace(/\s+/g, seperator);
