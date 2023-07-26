@@ -95,3 +95,26 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #666;
 }
+
+table.fancy {
+    --color: #212121;
+    border: 1px solid var(--color);
+    border-collapse: collapse;
+}
+
+table.fancy th, table.fancy td {
+    border: 1px solid var(--color);
+}
+
+table.fancy th {
+    background-color: #656565;
+}
+
+a {
+    color: var(--foreground);
+    text-decoration: underline;
+}
+
+a:hover {
+    cursor: pointer;
+}

@@ -78,13 +78,17 @@ const container = document.getElementsByClassName("container")[0];
     let include;
     try {
         include = await fetch(assetsPath + "include.html");
-        if (include.ok)
-        include = await include.text();
+        include = include.ok ? await include.text() : null;
     } catch {}
-    if (include && include.ok) {
+    if (include) {
         const content = document.createElement("div");
         content.classList.add("content");
         content.innerHTML = include;
         container.appendChild(content);
+
+        const images = content.querySelectorAll("img");
+        for (const image of images) {
+            image.src = getAssetsPath(book.title) + image.src.replace(location.origin, '');
+        }
     }
 })();
