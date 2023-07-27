@@ -4,6 +4,11 @@ export const tierDescriptions = Object.freeze(['Excellent', 'Very good', 'Good',
 
 export const imageSuffix = "jpg";
 
+/** Return an object with keys of the tiers and values of whatever the callback returns */
+export function createObjectWithTierKeys(callback) {
+    return tiers.reduce((p, c) => (p[c] = callback(c), p), {});
+}
+
 /** Given a name such as "the woman", convert to lower case and combine spaces by the given seperator */
 export function lowerCaseAndCombine(string, seperator = "-") {
     return string.toLowerCase().replace(/\s+/g, seperator);

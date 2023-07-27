@@ -1,12 +1,33 @@
-import { tiers, getBookCoverPath, getBookImage } from "./utils.js";
+import { tiers, getBookCoverPath, getBookImage, createObjectWithTierKeys } from "./utils.js";
 
-// CONSTANTS
-const bookData = tiers.reduce((p, c) => (p[c] = [], p), {}),
+// VARIABLES
+const bookData = createObjectWithTierKeys(() => ([])),
     tierElements = {};
-window.books = bookData;
+var showList = true;
+
+const container = document.getElementsByClassName("container")[0];
+
+// SETUP HEADER CONTROLS
+const eShowList = document.getElementById("show-list");
+eShowList.checked = showList;
+eShowList.addEventListener("change", () => {
+    showList = eShowList.checked;
+    updateShowList();
+});
+
+function updateShowList() {
+    if (showList) {
+        showList = true;
+        eTierList.removeAttribute("hidden");
+        eCollection.setAttribute("hidden", "hidden");
+    } else {
+        showList = false;
+        eCollection.removeAttribute("hidden");
+        eTierList.setAttribute("hidden", "hidden");
+    }
+}
 
 // SETUP TIER LIST
-const container = document.getElementsByClassName("container")[0];
 const eTierList = document.createElement("div");
 eTierList.classList.add("tier-list");
 container.appendChild(eTierList);
@@ -28,10 +49,17 @@ tiers.forEach(tier => {
     tierElements[tier] = content;
 });
 
+// SETUP COLLECTION
+const eCollection = document.createElement("div");
+eCollection.classList.add("book-collection");
+container.appendChild(eCollection);
+
 // FETCH BOOK DATA
 fetch("assets/data.json")
     .then(r => r.json())
     .then(data => {
+        const bookCollectionBooks = createObjectWithTierKeys(() => ([]));
+
         data.forEach((book, id) => {
             const text = book.title + " by " + book.author;
             bookData[book.tier] = book;
@@ -48,5 +76,16 @@ fetch("assets/data.json")
             eBook.appendChild(image);
             
             eBook.insertAdjacentHTML("beforeend", "<div class=\"tier-item-glow\"></div>");
-        });     
+
+            // Clone node for book collection
+            const eBook2 = eBook.cloneNode(true);
+            eBook2.dataset.tier = book.tier;
+            bookCollectionBooks[book.tier].push(eBook2);
+        });
+
+        for (const tier in bookCollectionBooks)
+           for (const e of bookCollectionBooks[tier])
+                eCollection.appendChild(e);
     });
+
+updateShowList();
