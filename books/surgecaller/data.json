@@ -1,0 +1,34 @@
+{
+    "readTo": 3,
+    "series": [
+        {
+            "title": "Oathbound"
+        },
+        {
+            "title": "Knighthood"
+        },
+        {
+            "title": "Honourbound",
+            "tier": "B"
+        },
+        {
+            "title": "Champion",
+            "tier": "B"
+        },
+        {
+            "title": "Legendary"
+        },
+        {
+            "title": "Immortality"
+        },
+        {
+            "title": "Celestial"
+        },
+        {
+            "title": "Soulblade"
+        },
+        {
+            "title": "Creation"
+        }
+    ]
+}

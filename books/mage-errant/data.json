@@ -1,0 +1,28 @@
+{
+    "series": [
+        {
+            "title": "Into the Labyrinth"
+        },
+        {
+            "title": "Jewel of the Endless Erg"
+        },
+        {
+            "title": "A Traitor in Skyhold"
+        },
+        {
+            "title": "The Lost City of Ithos"
+        },
+        {
+            "title": "The Siege of Skyhold",
+            "tier": "S"
+        },
+        {
+            "title": "Tongue Eater",
+            "tier": "S"
+        },
+        {
+            "title": "The Last Echo of the Lord of Bells",
+            "tier": "S"
+        }
+    ]
+}

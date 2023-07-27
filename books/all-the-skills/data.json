@@ -1,0 +1,15 @@
+{
+    "readTo": 1,
+    "status": "Awaiting new book",
+    "series": [
+        {
+            "title": "All the Skills 1"
+        },
+        {
+            "title": "All the Skills 2"
+        },
+        {
+            "title": "All the Skills 3"
+        }
+    ]
+}

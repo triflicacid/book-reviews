@@ -1,0 +1,30 @@
+{
+    "series": [
+        {
+            "title": "Knightmare Arcanist",
+            "tier": "A"
+        },
+        {
+            "title": "Dread Pirate Arcanist",
+            "tier": "A"
+        },
+        {
+            "title": "Coliseum Arcanist"
+        },
+        {
+            "title": "Plague Arcanist"
+        },
+        {
+            "title": "World Serpent Arcanist"
+        },
+        {
+            "title": "Warlord Arcanist"
+        },
+        {
+            "title": "Master Arcanist"
+        },
+        {
+            "title": "Grandmaster Arcanist"
+        }
+    ]
+}

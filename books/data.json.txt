@@ -1,0 +1,8 @@
+{
+    readTo?: number;        // Used to indicate which book in the series I have read up to
+    status?: string;        // Status of the series such as "waiting for new release"
+    series?: {
+        title: string;      // Book title
+        tier?: string;       // Tier of the book in the series. If not present, defaults to tier of the book/overall series
+    }[];
+}

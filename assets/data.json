@@ -4,37 +4,14 @@
         "author": "Will Wight",
         "tier": "S",
         "genre": ["xianxia", "progression fantasy", "magic"],
-        "read": ["06/06/2023", "21/06/2023"],
-        "series": [
-            "Unsouled",
-            "Soulsmith",
-            "Blackflame",
-            "Skysworn",
-            "Ghostwater",
-            "Underlord",
-            "Uncrowned",
-            "Wintersteel",
-            "Bloodline",
-            "Reaper",
-            "Dreadgod",
-            "waybound"
-        ]
+        "read": ["06/06/2023", "21/06/2023"]
     },
     {
         "title": "Mage Errant",
         "author": "John Bierce",
         "tier": "A",
         "genre": ["progression fantasy", "school", "magic"],
-        "read": ["24/06/2023", "09/07/2023"],
-        "series": [
-            "Into the Labyrinth",
-            "Jewel of the Endless Erg",
-            "A Traitor in Skyhold",
-            "The Lost City of Ithos",
-            "The Siege of Skyhold",
-            "Tongue Eater",
-            "The Last Echo of the Lord of Bells"
-        ]
+        "read": ["24/06/2023", "09/07/2023"]
     },
     {
         "title": "All the Skills",
@@ -42,13 +19,6 @@
         "tier": "B",
         "genre": ["progression fantasy", "deckbuilding", "magic"],
         "read": ["09/07/2023", "11/07/2023"],
-        "readTo": 1,
-        "status": "Awaiting new book",
-        "series": [
-            "All the Skills: 1",
-            "All the Skills: 2",
-            "All the Skills: 3"
-        ],
         "cover": "1"
     },
     {
@@ -57,22 +27,6 @@
         "tier": "E",
         "genre": ["progression fantasy", "magic"],
         "read": ["11/07/2023", "13/07/2023"],
-        "readTo": 2,
-        "series": [
-            "Dragon Forged",
-            "Dragon Skin",
-            "Dragon Touched",
-            "Dragon Heart",
-            "Dragon Mind",
-            "Dragon Soul",
-            "Dragon Blood",
-            "Dragon Memory",
-            "Dragon Realm",
-            "Dragon Rage",
-            "Dragon Herald",
-            "Dragon Unity",
-            "Dragon Form"
-        ],
         "cover": 1
     },
     {
@@ -80,35 +34,13 @@
         "author": "Shami Stovall",
         "tier": "S",
         "genre": ["fantasy", "magic", "beasts"],
-        "read": ["13/07/2023", "22/07/2023"],
-        "series": [
-            "Knightmare Arcanist",
-            "Dread Pirate Arcanist",
-            "Coliseum Arcanist",
-            "Plague Arcanist",
-            "World Serpent Arcanist",
-            "Warlord Arcanist",
-            "Master Arcanist",
-            "Grandmaster Arcanist"
-        ]
+        "read": ["13/07/2023", "22/07/2023"]
     },
     {
         "title": "Surgecaller",
         "author": "Todd Herzman",
         "tier": "C",
         "genre": ["progression fantasy", "magic"],
-        "read": ["23/07/2023"],
-        "readTo": 3,
-        "series": [
-            "Oathbound",
-            "Knighthood",
-            "Honourbound",
-            "Champion",
-            "Legendary",
-            "Immortality",
-            "Celestial",
-            "Soulblade",
-            "Creation"
-        ]
+        "read": ["23/07/2023"]
     }
 ]

@@ -1,6 +1,6 @@
 /** Array of ranks */
 export const tiers = Object.freeze(['S', 'A', 'B', 'C', 'D', 'E', 'F']);
-export const tierDescriptions = Object.freeze(['Excellent', 'Very good', 'Good', 'Average', 'Acceptable', 'Unacceptable']);
+export const tierDescriptions = Object.freeze(['Excellent', 'Very good', 'Good', 'Average', 'Acceptable', 'Unacceptable', 'Terrible']);
 
 export const imageSuffix = "jpg";
 
