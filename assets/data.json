@@ -14,14 +14,6 @@
         "read": ["24/06/2023", "09/07/2023"]
     },
     {
-        "title": "All the Skills",
-        "author": "Honour Rae",
-        "tier": "B",
-        "genre": ["progression fantasy", "deckbuilding", "magic"],
-        "read": ["09/07/2023", "11/07/2023"],
-        "cover": "1"
-    },
-    {
         "title": "Blood of the Ancients",
         "author": "Dan Michaelson, DK Holmberg",
         "tier": "E",
@@ -39,8 +31,16 @@
     {
         "title": "Surgecaller",
         "author": "Todd Herzman",
-        "tier": "C",
+        "tier": "B",
         "genre": ["progression fantasy", "magic"],
-        "read": ["23/07/2023"]
+        "read": ["23/07/2023", "28/07/2023"]
+    },
+    {
+        "title": "All the Skills",
+        "author": "Honour Rae",
+        "tier": "B",
+        "genre": ["progression fantasy", "deckbuilding", "magic"],
+        "read": ["09/07/2023", "11/07/2023"],
+        "cover": "1"
     }
 ]

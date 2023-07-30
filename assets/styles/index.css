@@ -99,7 +99,7 @@ body {
 }
 
 .tier > .tier-content > div > img:hover, .book-collection > div > img:hover {
-    border: 6px solid;
+    border: 8px solid;
     filter: drop-shadow(0 0 15px var(--tier-color));
     border-image: linear-gradient(var(--angle), var(--tier-color-light), var(--tier-color-light) var(--fancy-border-start), var(--tier-color-dark) var(--fancy-border-end), var(--tier-color-dark)) 1;
     border-radius: 0;

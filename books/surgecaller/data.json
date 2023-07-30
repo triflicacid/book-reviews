@@ -1,31 +1,35 @@
 {
-    "readTo": 3,
+    "readTo": 7,
+    "status": "Awaiting the next book",
     "series": [
         {
-            "title": "Oathbound"
+            "title": "Oathbound",
+            "tier": "C"
         },
         {
-            "title": "Knighthood"
+            "title": "Knighthood",
+            "tier": "C"
         },
         {
-            "title": "Honourbound",
-            "tier": "B"
+            "title": "Honourbound"
         },
         {
-            "title": "Champion",
-            "tier": "B"
+            "title": "Champion"
         },
         {
             "title": "Legendary"
         },
         {
-            "title": "Immortality"
+            "title": "Immortality",
+            "tier": "A"
         },
         {
-            "title": "Celestial"
+            "title": "Celestial",
+            "tier": "A"
         },
         {
-            "title": "Soulblade"
+            "title": "Soulblade",
+            "tier": "A"
         },
         {
             "title": "Creation"

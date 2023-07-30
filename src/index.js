@@ -1,4 +1,4 @@
-import { tiers, getBookCoverPath, getBookImage, createObjectWithTierKeys } from "./utils.js";
+import { tiers, getBookCoverPath, getBookImage, createObjectWithTierKeys, tierDescriptions } from "./utils.js";
 
 // VARIABLES
 const bookData = createObjectWithTierKeys(() => ([])),
@@ -31,7 +31,7 @@ function updateShowList() {
 const eTierList = document.createElement("div");
 eTierList.classList.add("tier-list");
 container.appendChild(eTierList);
-tiers.forEach(tier => {
+tiers.forEach((tier, i) => {
     const eTier = document.createElement("div");
     eTier.classList.add("tier");
     eTier.dataset.tier = tier;
@@ -39,6 +39,7 @@ tiers.forEach(tier => {
     
     const eLabel = document.createElement("div");
     eLabel.classList.add("tier-label");
+    eLabel.title = tierDescriptions[i];
     eLabel.innerText = tier;
     eTier.appendChild(eLabel);
     
