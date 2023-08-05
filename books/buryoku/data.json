@@ -1,0 +1,53 @@
+{
+    "readTo": 6,
+    "series": [
+        {
+            "title": "Power",
+            "tier": "A"
+        },
+        {
+            "title": "Light",
+            "tier": "A"
+        },
+        {
+            "title": "Water",
+            "tier": "A"
+        },
+        {
+            "title": "Wind",
+            "tier": "A"
+        },
+        {
+            "title": "Fire",
+            "tier": "A"
+        },
+        {
+            "title": "Earth",
+            "tier": "A"
+        },
+        {
+            "title": "Darkness",
+            "tier": "A"
+        },
+        {
+            "title": "Weakness",
+            "tier": "A"
+        },
+        {
+            "title": "Spirit",
+            "tier": "A"
+        },
+        {
+            "title": "Beast",
+            "tier": "A"
+        },
+        {
+            "title": "Ghost",
+            "tier": "A"
+        },
+        {
+            "title": "Archfiend",
+            "tier": "A"
+        }
+    ]
+}

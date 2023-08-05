@@ -42,5 +42,13 @@
         "genre": ["progression fantasy", "deckbuilding", "magic"],
         "read": ["09/07/2023", "11/07/2023"],
         "cover": "1"
+    },
+    {
+        "title": "Buryoku",
+        "author": "Aaron Oster",
+        "tier": "A",
+        "genre": ["progression fantasy", "magic"],
+        "read": ["31/07/2023"],
+        "cover": "1"
     }
 ]
