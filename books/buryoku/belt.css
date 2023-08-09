@@ -1,0 +1,101 @@
+[class$="-belt"] {
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.white-belt {
+    background-color: white;
+    color: black;
+}
+
+.yellow-belt {
+    background-color: yellow;
+    color: black;
+}
+
+.orange-belt {
+    background-color: orange;
+    color: black;
+}
+
+.green-belt {
+    background-color: green;
+    color: white;
+}
+
+.blue-belt {
+    background-color: blue;
+    color: white;
+}
+
+.purple-belt {
+    background-color: purple;
+    color: white;
+}
+
+.red-belt {
+    background-color: red;
+    color: white;
+}
+
+.gold-belt {
+    background-color: gold;
+    color: black;
+}
+
+.brown-belt {
+    background-color: brown;
+    color: white;
+}
+
+.gray-belt {
+    background-color: gray;
+    color: white;
+}
+
+.black-belt {
+    background-color: black;
+    color: white;
+}
+
+.perfect-black-belt {
+    background-color: black;
+    color: white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+}
+
+.core-black-belt {
+    background-color: black;
+    color: white;
+    border-left: 4px solid orange;
+    border-right: 4px solid orange;
+}
+
+.ideal-black-belt {
+    background-color: black;
+    color: white;
+    border-left: 4px solid blue;
+    border-right: 4px solid blue;
+}
+
+.legendary-black-belt {
+    background-color: black;
+    color: white;
+    border-left: 4px solid red;
+    border-right: 4px solid red;
+}
+
+.monster-black-belt {
+    background-color: black;
+    color: white;
+    border-left: 4px solid brown;
+    border-right: 4px solid brown;
+}
+
+.titan-black-belt {
+    background-color: black;
+    color: white;
+    border-left: 4px solid silver;
+    border-right: 4px solid silver;
+}

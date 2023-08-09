@@ -91,9 +91,12 @@ const container = document.getElementsByClassName("container")[0];
         content.innerHTML = include;
         container.appendChild(content);
 
-        const images = content.querySelectorAll("img");
-        for (const image of images) {
+        // Update paths of images
+        for (const image of content.querySelectorAll("img")) {
             image.src = getAssetsPath(bookData.title) + image.src.replace(location.origin, '');
+        }
+        for (const link of content.querySelectorAll("link")) {
+            link.href = getAssetsPath(bookData.title) + link.href.replace(location.origin, '');
         }
     }
 })();
