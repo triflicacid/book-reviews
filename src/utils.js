@@ -16,7 +16,7 @@ export function lowerCaseAndCombine(string, seperator = "-") {
 
 /** Given the title of a book, return path to assets */
 export function getAssetsPath(title) {
-    return "books/" + lowerCaseAndCombine(title, '-') + "/";
+    return "books/" + lowerCaseAndCombine(title.replace(/[^\sA-Za-z]/, ''), '-') + "/";
 }
 
 /** Given a book object, return the image path to the cover */

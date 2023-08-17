@@ -1,0 +1,34 @@
+[class^="rank"] {
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.rank-novice {
+    background-color: white;
+    color: black;
+}
+
+.rank-apprentice {
+    background-color: yellow;
+    color: black;
+}
+
+.rank-initiate {
+    background-color: orange;
+    color: black;
+}
+
+.rank-magi {
+    background-color: #50c878;
+    color: black;
+}
+
+.rank-adept {
+    background-color: cyan;
+    color: black;
+}
+
+.rank-elder {
+    background-color: lavender;
+    color: black;
+}

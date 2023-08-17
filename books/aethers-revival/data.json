@@ -1,0 +1,29 @@
+{
+    "readTo": 3,
+    "status": "Series aborted",
+    "series": [
+        {
+            "title": "Aether's Blessing",
+            "tier": "D"
+        },
+        {
+            "title": "Aether's Guard",
+            "tier": "D"
+        },
+        {
+            "title": "Magi's Path"
+        },
+        {
+            "title": "Aether's Apprentices"
+        },
+        {
+            "title": "Mages of Buldoun"
+        },
+        {
+            "title": "Magic Guard"
+        },
+        {
+            "title": "Moral Stand"
+        }
+    ]
+}

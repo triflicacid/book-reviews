@@ -14,6 +14,14 @@
         "read": ["24/06/2023", "09/07/2023"]
     },
     {
+        "title": "Aether's Revival",
+        "author": "Daniel Schinhofen",
+        "tier": "E",
+        "genre": ["magic", "school"],
+        "read": ["08/08/2023", "16/08/2023"],
+        "cover": "1"
+    },
+    {
         "title": "Blood of the Ancients",
         "author": "Dan Michaelson, DK Holmberg",
         "tier": "E",
@@ -48,7 +56,7 @@
         "author": "Aaron Oster",
         "tier": "A",
         "genre": ["progression fantasy", "magic"],
-        "read": ["31/07/2023"],
+        "read": ["31/07/2023", "07/08/2023"],
         "cover": "1"
     }
 ]
