@@ -1,0 +1,42 @@
+{
+    "readTo": 10,
+    "status": "Awaiting book 12",
+    "series": [
+        {
+            "title": "Force Cultivation"
+        },
+        {
+            "title": "The Way of the Force"
+        },
+        {
+            "title": "The First Peak of the Force"
+        },
+        {
+            "title": "The Call of the Forces"
+        },
+        {
+            "title": "Tha Path of the Strongest Mortal"
+        },
+        {
+            "title": "The Path through the Heavens"
+        },
+        {
+            "title": "The Path of Eternal War"
+        },
+        {
+            "title": "The Path tp the Stars"
+        },
+        {
+            "title": "Becoming a True Leader"
+        },
+        {
+            "title": "Awakened: The Ascendancy"
+        },
+        {
+            "title": "The Lord of War"
+        },
+        {
+            "title": "The Last Trial"
+        }
+    ]
+}

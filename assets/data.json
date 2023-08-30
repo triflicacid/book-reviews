@@ -7,6 +7,22 @@
         "read": ["06/06/2023", "21/06/2023"]
     },
     {
+        "title": "Buryoku",
+        "author": "Aaron Oster",
+        "tier": "A",
+        "genre": ["progression fantasy", "magic", "xianxia"],
+        "read": ["31/07/2023", "07/08/2023"],
+        "cover": "1"
+    },
+    {
+        "title": "The Heavenly Throne",
+        "author": "Yuri Ajin",
+        "tier": "A",
+        "genre": ["progression fantasy", "magic", "wuxia"],
+        "read": ["16/08/2023"],
+        "cover": "1"
+    },
+    {
         "title": "Mage Errant",
         "author": "John Bierce",
         "tier": "A",
@@ -49,14 +65,6 @@
         "tier": "B",
         "genre": ["progression fantasy", "deckbuilding", "magic"],
         "read": ["09/07/2023", "11/07/2023"],
-        "cover": "1"
-    },
-    {
-        "title": "Buryoku",
-        "author": "Aaron Oster",
-        "tier": "A",
-        "genre": ["progression fantasy", "magic"],
-        "read": ["31/07/2023", "07/08/2023"],
         "cover": "1"
     }
 ]
