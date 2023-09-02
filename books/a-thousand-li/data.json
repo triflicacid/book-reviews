@@ -1,0 +1,33 @@
+{
+    "readTo": 1,
+    "status": "Series paused",
+    "series": [
+        {
+            "title": "The First Step"
+        },
+        {
+            "title": "The First Stop"
+        },
+        {
+            "title": "The First War"
+        },
+        {
+            "title": "The Second Expedition"
+        },
+        {
+            "title": "The Second Sect"
+        },
+        {
+            "title": "The Second Storm"
+        },
+        {
+            "title": "The Third Kingdom"
+        },
+        {
+            "title": "The Third Realm"
+        },
+        {
+            "title": "The Third Cut"
+        }
+    ]
+}

@@ -30,20 +30,20 @@
         "read": ["24/06/2023", "09/07/2023"]
     },
     {
-        "title": "Aether's Revival",
-        "author": "Daniel Schinhofen",
-        "tier": "E",
-        "genre": ["magic", "school"],
-        "read": ["08/08/2023", "16/08/2023"],
-        "cover": "1"
-    },
-    {
         "title": "Blood of the Ancients",
         "author": "Dan Michaelson, DK Holmberg",
         "tier": "E",
         "genre": ["progression fantasy", "magic"],
         "read": ["11/07/2023", "13/07/2023"],
         "cover": 1
+    },
+    {
+        "title": "Aether's Revival",
+        "author": "Daniel Schinhofen",
+        "tier": "E",
+        "genre": ["magic", "school"],
+        "read": ["08/08/2023", "16/08/2023"],
+        "cover": "1"
     },
     {
         "title": "The Frith Chronicles",
@@ -65,6 +65,14 @@
         "tier": "B",
         "genre": ["progression fantasy", "deckbuilding", "magic"],
         "read": ["09/07/2023", "11/07/2023"],
+        "cover": "1"
+    },
+    {
+        "title": "A Thousand Li",
+        "author": "Tao Wong",
+        "tier": "C",
+        "genre": ["progression fantasy", "xianxia", "chinese"],
+        "read": ["25/08/2023"],
         "cover": "1"
     }
 ]
