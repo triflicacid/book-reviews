@@ -1,0 +1,22 @@
+{
+    "readTo": 3,
+    "status": "Awaiting the next book",
+    "series": [
+        {
+            "title": "Mark of the Fool"
+        },
+        {
+            "title": "Mark of the Fool 2"
+        },
+        {
+            "title": "Mark of the Fool 3",
+            "tier": "A"
+        },
+        {
+            "title": "Mark of the Fool 4"
+        },
+        {
+            "title": "Mark of the Fool 5"
+        }
+    ]
+}

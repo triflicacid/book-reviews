@@ -7,6 +7,21 @@
         "read": ["06/06/2023", "21/06/2023"]
     },
     {
+        "title": "The Frith Chronicles",
+        "author": "Shami Stovall",
+        "tier": "S",
+        "genre": ["fantasy", "magic", "beasts"],
+        "read": ["13/07/2023", "22/07/2023"]
+    },
+    {
+        "title": "Mark of the Fool",
+        "author": "J.M. Clarks",
+        "tier": "S",
+        "genre": ["magic", "school"],
+        "read": ["11/09/2023", "17/09/2023"],
+        "cover": "1"
+    },
+    {
         "title": "Buryoku",
         "author": "Aaron Oster",
         "tier": "A",
@@ -44,13 +59,6 @@
         "genre": ["magic", "school"],
         "read": ["08/08/2023", "16/08/2023"],
         "cover": "1"
-    },
-    {
-        "title": "The Frith Chronicles",
-        "author": "Shami Stovall",
-        "tier": "S",
-        "genre": ["fantasy", "magic", "beasts"],
-        "read": ["13/07/2023", "22/07/2023"]
     },
     {
         "title": "Surgecaller",
