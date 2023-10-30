@@ -1,5 +1,6 @@
 {
-    "readTo": 3,
+    "readTo": 5,
+    "status": "Awaiting next book",
     "series": [
         {
             "title": "The Menocht Loop"
@@ -11,13 +12,15 @@
             "title": "The Eldemari's Wrath"
         },
         {
-            "title": "The Samsara Crucible"
+            "title": "The Samsara Crucible",
+            "tier": "C"
         },
         {
             "title": "The Blade of Revelation"
         },
         {
-            "title": "The Trials of Descent"
+            "title": "The Trials of Descent",
+            "tier": "A"
         }
     ]
 }

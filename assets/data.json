@@ -61,19 +61,19 @@
         "cover": "1"
     },
     {
+        "title": "Menocht Loop",
+        "author": "Lorne Ryburn",
+        "tier": "B",
+        "genre": ["progression fantasy", "magic"],
+        "read": ["14/10/2023", "30/10/2023"],
+        "cover": "1"
+    },
+    {
         "title": "Surgecaller",
         "author": "Todd Herzman",
         "tier": "B",
         "genre": ["progression fantasy", "magic"],
         "read": ["23/07/2023", "28/07/2023", "29/09/2023", "30/09/2023"]
-    },
-    {
-        "title": "Menocht Loop",
-        "author": "Lorne Ryburn",
-        "tier": "B",
-        "genre": ["progression fantasy", "magic"],
-        "read": ["14/10/2023"],
-        "cover": "1"
     },
     {
         "title": "All the Skills",
