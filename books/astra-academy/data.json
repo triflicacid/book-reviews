@@ -1,0 +1,18 @@
+{
+    "readTo": 2,
+    "status": "Awaiting next book",
+    "series": [
+        {
+            "title": "Academy Arcanist"
+        },
+        {
+            "title": "Mimic Arcanist"
+        },
+        {
+            "title": "Abyssal Arcanist"
+        },
+        {
+            "title": "Death Lord Arcanist"
+        }
+    ]
+}

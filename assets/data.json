@@ -22,6 +22,14 @@
         "cover": "1"
     },
     {
+        "title": "Astra Academy",
+        "author": "Shami Stovall",
+        "tier": "A",
+        "genre": ["fantasy", "magic", "beasts", "school"],
+        "read": ["16/12/2023", "18/12/2023"],
+        "cover": "1"
+    },
+    {
         "title": "Buryoku",
         "author": "Aaron Oster",
         "tier": "A",
@@ -32,9 +40,9 @@
     {
         "title": "The Heavenly Throne",
         "author": "Yuri Ajin",
-        "tier": "A",
+        "tier": "B",
         "genre": ["progression fantasy", "magic", "wuxia"],
-        "read": ["16/08/2023"],
+        "read": ["16/08/2023", "24/08/2023"],
         "cover": "1"
     },
     {
@@ -55,7 +63,7 @@
     {
         "title": "Aether's Revival",
         "author": "Daniel Schinhofen",
-        "tier": "E",
+        "tier": "F",
         "genre": ["magic", "school"],
         "read": ["08/08/2023", "16/08/2023"],
         "cover": "1"
@@ -71,14 +79,14 @@
     {
         "title": "Surgecaller",
         "author": "Todd Herzman",
-        "tier": "B",
+        "tier": "C",
         "genre": ["progression fantasy", "magic"],
         "read": ["23/07/2023", "28/07/2023", "29/09/2023", "30/09/2023"]
     },
     {
         "title": "All the Skills",
         "author": "Honour Rae",
-        "tier": "B",
+        "tier": "C",
         "genre": ["progression fantasy", "deckbuilding", "magic"],
         "read": ["09/07/2023", "11/07/2023"],
         "cover": "1"
@@ -86,7 +94,7 @@
     {
         "title": "A Thousand Li",
         "author": "Tao Wong",
-        "tier": "C",
+        "tier": "D",
         "genre": ["progression fantasy", "xianxia", "chinese"],
         "read": ["25/08/2023"],
         "cover": "1"
