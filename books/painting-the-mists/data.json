@@ -1,0 +1,60 @@
+{
+    "readTo": 17,
+    "status": "Awaiting next book",
+    "series": [
+        {
+            "title": "Clear Sky"
+        },
+        {
+            "title": "Blood Moon"
+        },
+        {
+            "title": "Light in the Darkness"
+        },
+        {
+            "title": "Pure Jade"
+        },
+        {
+            "title": "Corrupted Crimson"
+        },
+        {
+            "title": "Kindling"
+        },
+        {
+            "title": "Shifting Tides"
+        },
+        {
+            "title": "Shattered Lands"
+        },
+        {
+            "title": "Edge of Oblivion"
+        },
+        {
+            "title": "Words of Creation"
+        },
+        {
+            "title": "Crown of the Starry Sky"
+        },
+        {
+            "title": "Claddings of Light"
+        },
+        {
+            "title": "Echoes of Divinity"
+        },
+        {
+            "title": "Pendulum of Fate: Part 1"
+        },
+        {
+            "title": "Pendulum of Fate: Part 2"
+        },
+        {
+            "title": "Heartforge"
+        },
+        {
+            "title": "Bloodstorm"
+        },
+        {
+            "title": "Planesfall"
+        }
+    ]
+}
