@@ -1,0 +1,13 @@
+{
+    "readTo": 1,
+    "status": "Awaiting next book",
+    "series": [
+        {
+            "title": "Prodigies",
+            "tier": "S"
+        },
+        {
+            "title": "Monolith"
+        }
+    ]
+}
