@@ -1,0 +1,39 @@
+{
+    "readTo": 9,
+    "status": "Awaiting the next book",
+    "series": [
+        {
+            "title": "He Who Fights With Monsters"
+        },
+        {
+            "title": "He Who Fights With Monsters 2"
+        },
+        {
+            "title": "He Who Fights With Monsters 3"
+        },
+        {
+            "title": "He Who Fights With Monsters 4"
+        },
+        {
+            "title": "He Who Fights With Monsters 5"
+        },
+        {
+            "title": "He Who Fights With Monsters 6"
+        },
+        {
+            "title": "He Who Fights With Monsters 7"
+        },
+        {
+            "title": "He Who Fights With Monsters 8"
+        },
+        {
+            "title": "He Who Fights With Monsters 9"
+        },
+        {
+            "title": "He Who Fights With Monsters 10"
+        },
+        {
+            "title": "He Who Fights With Monsters 11"
+        }
+    ]
+}

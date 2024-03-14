@@ -76,6 +76,7 @@ const container = document.getElementsByClassName("container")[0];
                 image.dataset.tier = data.tier ?? bookData.tier;
             }
             image.alt = data.title;
+            image.title = data.title;
             books.appendChild(image);
         });
     }
