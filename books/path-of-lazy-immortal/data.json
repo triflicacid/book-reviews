@@ -1,0 +1,36 @@
+{
+    "readTo": 8,
+    "status": "Awaiting new book",
+    "series": [
+        {
+            "title": "Reincarnation"
+        },
+        {
+            "title": "Inheritance"
+        },
+        {
+            "title": "Baptization"
+        },
+        {
+            "title": "Beat Origin Realm"
+        },
+        {
+            "title": "Five Firmament Sect"
+        },
+        {
+            "title": "War of Clans"
+        },
+        {
+            "title": "Way of Sword"
+        },
+        {
+            "title": "Ancient Vault"
+        },
+        {
+            "title": "Ancient Constitution"
+        },
+        {
+            "title": "Ancient Decree"
+        }
+    ]
+}
