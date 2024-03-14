@@ -1,6 +1,6 @@
 {
-    "readTo": 10,
-    "status": "Awaiting book 12",
+    "readTo": 11,
+    "status": "Awaiting book 13",
     "series": [
         {
             "title": "Force Cultivation"
@@ -37,6 +37,9 @@
         },
         {
             "title": "The Last Trial"
+        },
+        {
+            "title": "Godslayer"
         }
     ]
 }
