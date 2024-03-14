@@ -1,5 +1,5 @@
 {
-    "readTo": 4,
+    "readTo": 5,
     "status": "Awaiting the next book",
     "series": [
         {
@@ -21,6 +21,9 @@
         },
         {
             "title": "Mark of the Fool 6"
+        },
+        {
+            "title": "Mark of the Fool 7"
         }
     ]
 }
