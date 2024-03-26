@@ -1,0 +1,18 @@
+{
+    "status": "Awaiting next book",
+    "readTo": 2,
+    "series": [
+        {
+            "title": "Speedrunning the Multiverse"
+        },
+        {
+            "title": "Speedrunning the Multiverse: 2"
+        },
+        {
+            "title": "Speedrunning the Multiverse: 3"
+        },
+        {
+            "title": "Speedrunning the Multiverse: 4"
+        }
+    ]
+}
