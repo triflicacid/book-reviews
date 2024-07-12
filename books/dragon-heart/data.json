@@ -1,0 +1,94 @@
+{
+    "readTo": 20,
+    "status": "Awaiting final book",
+    "series": [
+        {
+            "title": "Stone Will",
+            "tier": "A"
+        },
+        {
+            "title": "Iron Will",
+            "tier": "A"
+        },
+        {
+            "title": "Blood Will",
+            "tier": "A"
+        },
+        {
+            "title": "Sea of Sand",
+            "tier": "A"
+        },
+        {
+            "title": "Sea of Sorrow",
+            "tier": "A"
+        },
+        {
+            "title": "Land of Magic",
+            "tier": "A"
+        },
+        {
+            "title": "Land of Demons",
+            "tier": "A"
+        },
+        {
+            "title": "Land of the Enemy",
+            "tier": "A"
+        },
+        {
+            "title": "Land of Pain",
+            "tier": "A"
+        },
+        {
+            "title": "Land of War",
+            "tier": "A"
+        },
+        {
+            "title": "Path to the Unknown",
+            "tier": "A"
+        },
+        {
+            "title": "Path to Glory",
+            "tier": "A"
+        },
+        {
+            "title": "Demon City",
+            "tier": "A"
+        },
+        {
+            "title": "Dwarf City",
+            "tier": "A"
+        },
+        {
+            "title": "Dragon City",
+            "tier": "A"
+        },
+        {
+            "title": "Way to the West",
+            "tier": "A"
+        },
+        {
+            "title": "Way to the East",
+            "tier": "A"
+        },
+        {
+            "title": "Way to the South",
+            "tier": "A"
+        },
+        {
+            "title": "Way to the North",
+            "tier": "A"
+        },
+        {
+            "title": "Last Day of the Human",
+            "tier": "A"
+        },
+        {
+            "title": "Last Day of the Immortal",
+            "tier": "A"
+        },
+        {
+            "title": "Final book",
+            "tier": "A"
+        }
+    ]
+}

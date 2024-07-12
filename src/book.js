@@ -5,7 +5,7 @@ const bookId = +params.get("id");
 const container = document.getElementsByClassName("container")[0];
 
 (async function () {
-    function generateBookImage(itemData, i) {
+    function generateBookImage(itemData, i, readTo) {
         const image = getBookImage(assetsPath + (i + 1).toString() + "." + imageSuffix);
         image.classList.add("book-image");
     
@@ -13,7 +13,7 @@ const container = document.getElementsByClassName("container")[0];
             .replace("$title", bookData.title)
             .replace("$n", i);
     
-        if (i > xBookData.readTo) {
+        if (i > readTo) {
             image.classList.add("book-not-read");
         } else {
             image.dataset.tier = itemData.tier ?? bookData.tier;
@@ -94,10 +94,10 @@ const container = document.getElementsByClassName("container")[0];
             xBookData.series.forEach(data => {
                 if (data.type === "repeat") {
                     for (let j = 0; j < +data.count; j++) {
-                        books.appendChild(generateBookImage(data, i++));
+                        books.appendChild(generateBookImage(data, i++, xBookData.readTo));
                     }
                 } else {
-                    books.appendChild(generateBookImage(data, i++));
+                    books.appendChild(generateBookImage(data, i++, xBookData.readTo));
                 }
             });
         }
@@ -108,7 +108,7 @@ const container = document.getElementsByClassName("container")[0];
         include = await fetch(assetsPath + "include.html");
         include = include.ok ? await include.text() : null;
     } catch {}
-    
+
     if (include) {
         const content = document.createElement("div");
         content.classList.add("content");
