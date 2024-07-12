@@ -5,6 +5,26 @@ const bookId = +params.get("id");
 const container = document.getElementsByClassName("container")[0];
 
 (async function () {
+    function generateBookImage(itemData, i) {
+        const image = getBookImage(assetsPath + (i + 1).toString() + "." + imageSuffix);
+        image.classList.add("book-image");
+    
+        const title = itemData.title
+            .replace("$title", bookData.title)
+            .replace("$n", i);
+    
+        if (i > xBookData.readTo) {
+            image.classList.add("book-not-read");
+        } else {
+            image.dataset.tier = itemData.tier ?? bookData.tier;
+        }
+    
+        image.alt = title;
+        image.title = title;
+        
+        return image;
+    }
+
     const response = await fetch("assets/data.json");
     const booksData = await response.json();
     const bookData = booksData[bookId];
@@ -59,25 +79,19 @@ const container = document.getElementsByClassName("container")[0];
         series.insertAdjacentHTML("beforeend", `<div class='book-series-count'>This series contains ${count} book${count === 1 ? '' : 's'}</div>`);
         container.appendChild(series);
 
-        if (xBookData.readTo !== undefined) {
-            series.insertAdjacentHTML("beforeend", `<div class='book-stopped-at'>Read up to ${xBookData.series[xBookData.readTo].title}</div>`);
-        }
-
         const books = document.createElement("div");
         books.classList.add("book-series");
         series.appendChild(books);
 
-        xBookData.series.forEach((data, i) => {
-            const image = getBookImage(assetsPath + (i + 1).toString() + "." + imageSuffix);
-            image.classList.add("book-image");
-            if (i > xBookData.readTo) {
-                image.classList.add("book-not-read");
+        let i = 0;
+        xBookData.series.forEach(data => {
+            if (data.type === "repeat") {
+                for (let j = 0; j < +data.count; j++) {
+                    books.appendChild(generateBookImage(data, i++));
+                }
             } else {
-                image.dataset.tier = data.tier ?? bookData.tier;
+                books.appendChild(generateBookImage(data, i++));
             }
-            image.alt = data.title;
-            image.title = data.title;
-            books.appendChild(image);
         });
     }
 
