@@ -1,0 +1,58 @@
+{
+    "readTo": 12,
+    "status": "Awaiting new book",
+    "series": [
+        {
+            "title": "Defiance of the Fall: 1",
+            "tier": "A"
+        },
+        {
+            "title": "Defiance of the Fall: 2",
+            "tier": "A"
+        },
+        {
+            "title": "Defiance of the Fall: 3",
+            "tier": "A"
+        },
+        {
+            "title": "Defiance of the Fall: 4",
+            "tier": "A"
+        },
+        {
+            "title": "Defiance of the Fall: 5",
+            "tier": "A"
+        },
+        {
+            "title": "Defiance of the Fall: 6",
+            "tier": "A"
+        },
+        {
+            "title": "Defiance of the Fall: 7",
+            "tier": "B"
+        },
+        {
+            "title": "Defiance of the Fall: 8",
+            "tier": "B"
+        },
+        {
+            "title": "Defiance of the Fall: 9",
+            "tier": "B"
+        },
+        {
+            "title": "Defiance of the Fall: 10",
+            "tier": "B"
+        },
+        {
+            "title": "Defiance of the Fall: 11",
+            "tier": "B"
+        },
+        {
+            "title": "Defiance of the Fall: 12",
+            "tier": "B"
+        },
+        {
+            "title": "Defiance of the Fall: 13",
+            "tier": "B"
+        }
+    ]
+}
