@@ -14,11 +14,11 @@
         "read": ["13/07/2023", "22/07/2023"]
     },
     {
-        "title": "He Who Fights With Monsters",
-        "author": "Shirtaloon",
+        "title": "Unintended Cultivator",
+        "author": "Eric Dontigney",
         "tier": "S",
-        "genre": ["progression fantasy", "isekai", "adventure"],
-        "read": ["16/01/2024", "23/02/2024"],
+        "genre": ["progression fantasy", "magic", "wuxia"],
+        "read": ["06/07/2024", "08/07/2024"],
         "cover": "1"
     },
     {
@@ -27,6 +27,14 @@
         "tier": "S",
         "genre": ["magic", "school"],
         "read": ["11/09/2023", "17/09/2023", "09/10/2023", "12/10/2023", "26/02/2024", "01/03/2024"],
+        "cover": "1"
+    },
+    {
+        "title": "He Who Fights With Monsters",
+        "author": "Shirtaloon",
+        "tier": "A",
+        "genre": ["progression fantasy", "isekai", "adventure"],
+        "read": ["16/01/2024", "23/02/2024"],
         "cover": "1"
     },
     {
