@@ -11,7 +11,7 @@ const container = document.getElementsByClassName("container")[0];
     
         const title = itemData.title
             .replace("$title", bookData.title)
-            .replace("$n", i);
+            .replace("$n", i + 1);
     
         if (i > readTo) {
             image.classList.add("book-not-read");
@@ -83,7 +83,6 @@ const container = document.getElementsByClassName("container")[0];
             const count = xBookData.series.length;
             const series = document.createElement("div");
             series.classList.add("book-series-container");
-            series.insertAdjacentHTML("beforeend", `<div class='book-series-count'>This series contains ${count} book${count === 1 ? '' : 's'}</div>`);
             container.appendChild(series);
 
             const books = document.createElement("div");

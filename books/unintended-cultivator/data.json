@@ -1,10 +1,10 @@
 {
-    "readTo": 3,
+    "readTo": 8,
     "status": "Awaiting next book",
     "series": [
         {
             "type": "repeat",
-            "count": 9,
+            "count": 10,
             "tier": "S",
             "title": "$title: Volume $n"
         }
